@@ -1,6 +1,6 @@
 # 50.007 Machine Learning Project
 
-**In this design project, we would like to design our sequence labelling model for informal texts using the hidden Markov model (HMM) that we have learned in class. We hope that your sequence labelling system for informal texts can serve as the very first step towards building a more complex, intelligent sentiment analysis system for social media text.**
+In this design project, we would like to design our sequence labelling model for informal texts using the hidden Markov model (HMM) that we have learned in class. We hope that your sequence labelling system for informal texts can serve as the very first step towards building a more complex, intelligent sentiment analysis system for social media text.
 
 ## How to run the approach codes
 ### Part 1:
@@ -37,9 +37,9 @@ python evalResult.py RU/dev.out RU/dev.p3.out
 python evalResult.py ES/dev.out ES/dev.p4.out
 python evalResult.py RU/dev.out RU/dev.p4.out
 ```
-**For test data,**
+For test data,
 ```
 python evalResult.py <gold standard> ES/test.p4.out
 python evalResult.py <gold standard> RU/test.p4.out
 ```
-**Replace the *<gold standard*> with your gold standard for evaluation, path should be included.**
+Replace the *<gold standard*> with your gold standard for evaluation, path should be included.
